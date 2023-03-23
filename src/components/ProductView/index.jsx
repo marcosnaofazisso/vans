@@ -3,15 +3,22 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import { Stars, OrbitControls, useGLTF } from '@react-three/drei'
 
 function Shoe() {
+
     const { scene } = useGLTF("/shoe.gltf")
+    const shoeRef = useRef()
+
+    useFrame(() => {
+        shoeRef.current.rotation.y += 0.01
+    })
+
     return (
-        <primitive object={scene} scale={1} />
+        <primitive ref={shoeRef} object={scene} scale={1} />
     )
 }
 
-function ProductView() {
+export default function ProductView() {
     return (
-        <Canvas style={{ height: window.innerHeight - 90 }}>
+        <Canvas style={{ height: '90vh', border: '5px solid #F00' }}>
             <OrbitControls />
             <Stars />
             <ambientLight intensity={0.5} />
@@ -20,5 +27,3 @@ function ProductView() {
         </Canvas>
     );
 }
-
-export default ProductView;
