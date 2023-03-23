@@ -18,7 +18,7 @@ function Shoe() {
 
 export default function ProductView() {
     return (
-        <Canvas style={{ height: '90vh', border: '5px solid #F00' }}>
+        <Canvas style={{ height: '90vh' }}>
             <OrbitControls />
             <Stars />
             <ambientLight intensity={0.5} />

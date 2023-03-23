@@ -6,7 +6,7 @@ import { Row } from './styles';
 
 import ProductSection from './components/ProductSection';
 import { Container, SectionDescription, TitleDescription, SubTitleDescription } from './components/ProductSection/styles';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Row>
         <Description />
-        {/* <ProductView /> */}
+        <ProductView />
       </Row>
       <Container>
         <ProductSection />
@@ -26,6 +26,7 @@ function App() {
           <SubTitleDescription>````</SubTitleDescription>
         </SectionDescription>
       </Container>
+      <Footer />
 
     </>
   );
