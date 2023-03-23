@@ -1,9 +1,18 @@
 import './App.css'
 import ProductView from './components/ProductView';
+import Header from './components/Header';
+import Description from './components/Description';
+import { Row } from './styles';
 
 function App() {
   return (
-    <ProductView />
+    <>
+      <Header />
+      <Row>
+        <Description />
+        <ProductView />
+      </Row>
+    </>
   );
 }
 
