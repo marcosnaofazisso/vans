@@ -22,6 +22,12 @@ export const SectionDescription = styled.div`
     margin: 0;
     padding: 2rem;
     width: 50vw;
+    
+    @media (max-width: 800px) {
+        width: 65vw;
+        padding: 1rem;
+
+  }
 `;
 export const TitleDescription = styled.h2`
     @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;700&display=swap');
@@ -29,6 +35,12 @@ export const TitleDescription = styled.h2`
     color: #FFF;
     font-size: 60px;
     margin: 0;
+    
+    @media (max-width: 800px) {
+        font-size: 40px;
+
+  }
+    
 `;
 export const SubTitleDescription = styled.p`
     @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;700&display=swap');
@@ -36,4 +48,9 @@ export const SubTitleDescription = styled.p`
     color: #FFF;
     font-size: 60px;
     margin: 0;
+
+    @media (max-width: 800px) {
+        font-size: 40px;
+
+  }
 `;

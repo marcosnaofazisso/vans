@@ -7,6 +7,11 @@ export const Container = styled.div`
     justify-content: center;
     background-color: #FFF;
     height: 50vh;
+    
+    @media (max-width: 800px) {
+        height: 25vh;
+
+  }
 `;
 
 export const BuyButton = styled.div`
@@ -24,5 +29,10 @@ export const BuyButton = styled.div`
         cursor: pointer;
         border: 5px solid #F00;
     }
+    
+    @media (max-width: 800px) {
+        font-size: 30px;
+        padding: 1rem;
 
+  }
 `;

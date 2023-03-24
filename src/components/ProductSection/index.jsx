@@ -18,7 +18,7 @@ function RockShoe() {
 
 export default function ProductSection() {
     return (
-        <Canvas style={{ height: '80vh' }} camera={{ position: [2, 6, 5] }}>
+        <Canvas style={{ height: window.innerWidth > 800 ? '80vh' : '60vh', cursor: 'grab' }} camera={{ position: [2, 6, 5] }}>
             <OrbitControls />
             <Sparkles
                 number={200}
