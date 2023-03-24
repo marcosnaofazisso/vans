@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Vans
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./demo/vans.jpg" height="500" width="850">
 
-## Available Scripts
+A basic Vans website with 3D models using Three.js 
 
-In the project directory, you can run:
+### Developers: 
+* [Marcos Vinicius Ferreira](https://github.com/marcosnaofazisso) 
 
-### `npm start`
+## Goals and Rules:
+The main goals of Vans project was to study the usage of 3D Models in webpages and understand concepts like camera position, light, mesh, angles (x, y, z) and the physics of light. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are no more complex functionalities and the project its not all sizes resposive.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Demo
+https://user-images.githubusercontent.com/79977399/227586134-736598f0-574a-4037-995d-4bc8e5797b82.mp4
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For desktop and mobile.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tutorial
+Libraries used were: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React Icons
+- Styled Components
+- ThreeJS Fiber
+- ThreeJS Drei
+- ThreeJS Cannon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Always look for the official documentation: https://threejs.org/docs/
 
-### `npm run eject`
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.58.2",
+    "@react-three/fiber": "^8.12.0",
+    "react-icons": "^4.8.0",
+    "styled-components": "^5.3.9",
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Thank you!
