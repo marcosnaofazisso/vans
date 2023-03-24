@@ -2,9 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
     background-color: #000;
+    
+    @media (max-width: 1200px) {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+
+  }
+
+
 `;
 
 export const SectionDescription = styled.div`

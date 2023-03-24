@@ -12,10 +12,10 @@ export default function Header() {
                 <Option>Produtos</Option>
                 <Option>Campanhas</Option>
                 <Icons>
-                    <BsSearch size={25} />
+                    <BsSearch size={window.innerWidth > 800 ? 25 : 15} />
                 </Icons>
                 <Icons>
-                    <BsBag size={25} />
+                    <BsBag size={window.innerWidth > 800 ? 25 : 15} />
                 </Icons>
             </ContainerIcons>
         </Container>

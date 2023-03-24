@@ -7,6 +7,7 @@ import { Row } from './styles';
 import ProductSection from './components/ProductSection';
 import { Container, SectionDescription, TitleDescription, SubTitleDescription } from './components/ProductSection/styles';
 import Footer from './components/Footer';
+import BuyNowSection from './components/BuyNowSection';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <SubTitleDescription>````</SubTitleDescription>
         </SectionDescription>
       </Container>
+      <BuyNowSection/>
       <Footer />
 
     </>
