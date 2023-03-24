@@ -18,12 +18,17 @@ function Shoe() {
 
 export default function ProductView() {
     return (
-        <Canvas style={{ height: '90vh' }}>
-            <OrbitControls />
-            <Stars />
-            <ambientLight intensity={0.5} />
-            <spotLight position={[10, 15, 10]} angle={0.3} />
-            <Shoe />
-        </Canvas>
+        <>
+            <Canvas style={{ height: window.innerWidth > 800 ? '90vh' : '40vh', cursor: 'grab' }}>
+                <OrbitControls />
+                <Stars />
+                <ambientLight intensity={0.5} />
+                <spotLight position={[10, 15, 10]} angle={0.3} />
+                <Shoe />
+            </Canvas>
+            {window.innerWidth < 800 && (<div style={{ height: '20vh', margin: '0 auto', fontSize: '3rem', marginTop: '4rem', padding: '1rem 1rem 0 1rem' }}>
+                ⬆⬆
+            </div>)}
+        </>
     );
 }
